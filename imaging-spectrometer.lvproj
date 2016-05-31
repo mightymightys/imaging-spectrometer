@@ -18,8 +18,10 @@
 		<Item Name="huge_problems.vi" Type="VI" URL="../huge_problems.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="main2work.vi" Type="VI" URL="../main2work.vi"/>
+		<Item Name="ProducerConsumerEvents 1.vi" Type="VI" URL="../../producer consumer/ProducerConsumerEvents 1.vi"/>
 		<Item Name="queue_loop.vi" Type="VI" URL="../queue_loop.vi"/>
 		<Item Name="select_camera.vi" Type="VI" URL="../select_camera.vi"/>
+		<Item Name="state machine enum.ctl" Type="VI" URL="../state machine enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
