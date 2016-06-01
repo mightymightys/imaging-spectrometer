@@ -12,16 +12,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Control Camera Properties.vi" Type="VI" URL="../Control Camera Properties.vi"/>
-		<Item Name="garage.vi" Type="VI" URL="../garage.vi"/>
-		<Item Name="grab.vi" Type="VI" URL="../grab.vi"/>
-		<Item Name="huge_problems.vi" Type="VI" URL="../huge_problems.vi"/>
+		<Item Name="sub_vis" Type="Folder" URL="../sub_vis">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="type definitions" Type="Folder" URL="../type definitions">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="under construction" Type="Folder" URL="../under construction">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="main2work.vi" Type="VI" URL="../main2work.vi"/>
-		<Item Name="ProducerConsumerEvents 1.vi" Type="VI" URL="../../producer consumer/ProducerConsumerEvents 1.vi"/>
-		<Item Name="queue_loop.vi" Type="VI" URL="../queue_loop.vi"/>
-		<Item Name="select_camera.vi" Type="VI" URL="../select_camera.vi"/>
-		<Item Name="state machine enum.ctl" Type="VI" URL="../state machine enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
